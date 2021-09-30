@@ -18,16 +18,14 @@
             margin-bottom: 0px;
             font-weight: bold;
             font-size: 32px;
-            
-
         }
 
         div.contenu {
             box-shadow: 3px 3px red, -1em 0 .4em olive;
             background-image: url(https://i.pinimg.com/474x/30/77/50/30775078c4a8aca90ffff4b31ac44d69.jpg) ;
-            margin: 60px 10% 80px 10%;
+            margin: 40px 8px 40px 8px;
             padding: 0px 30px 30px 30px;
-            min-width: 400px;
+            /*min-width: 400px;*/
             max-width: 600px;
             overflow: visible;
         }
@@ -35,12 +33,13 @@
         h2 {
             text-align: center
         }
+
         h1 {
             text-shadow: 5px 5px #ff0d0d;
             text-align: center;
             font-size: 50px;
             margin-bottom: 12px;
-            margin-top: 10px
+            margin-top: 10px;
         }
 
         p.description {
@@ -66,11 +65,9 @@
             margin-left: auto;
             margin-right: auto;
             vertical-align: top;
-        
-
         }
 
-        div.separateur{
+        div.separateur {
             width: 100px;
             height: 1px;
             background-color: black;
@@ -88,17 +85,19 @@
             bottom:0;
             width: 100%;
             color: white;
-            height: 90px;
+            height: 50px;
             background-color: #49ff39c0
         }
+
         table.info td{
             text-align: center;
-            font-size: 13px;
+            font-size: 14px;
             vertical-align: top;
         }
+
         table.info th{
-            font-size: 20px;
-            padding-bottom: 10px;
+            font-size: 14px;
+            padding-bottom: 12px;
         }
 
         img.info{
@@ -111,8 +110,9 @@
 
         div.colonne{
             margin-top: 20px;
-            width: 45%
-}
+            width: 100%
+        }
+
         div.colonne h2{
             text-align: center;
             text-transform: uppercase;
@@ -124,12 +124,10 @@
         div.colonne1{
             background-color: rgb(165, 122, 129);
             display: inline-block;
-            margin-right: 10%;
         }
 
         div.colonne2{
-            background-color: rgb(211, 186, 176);
-            float: right;
+            background-color: rgb(211, 186, 176);;
         }
 
         div.ingredients p{
@@ -163,8 +161,54 @@
             font-size: 14px;
             padding-left: 10px;
             padding-bottom: 10px;
-
         }
+
         table.preparation tr{
             height: 40px;
         }
+
+/*POUR ORDI*/
+        @media only screen and (min-width: 768px) {
+            div.contenu {
+                margin: 60px 10% 80px 10%;
+                padding: 0px 30px 30px 30px;
+                min-width: 350px;
+
+            }
+
+            table.info{
+                height: 90px;
+            }
+        
+            table.info td{
+                font-size: 13px;
+                vertical-align: top;
+            }
+            table.info th{
+                font-size: 20px;
+                padding-bottom: 10px;
+            }
+
+            div.colonne{
+                width: 45%
+            }
+
+            div.colonne1{
+                margin-right: 10%;
+            }
+
+            div.colonne2{
+                float: right;
+            }
+        @media only screen and (min-width: 900px) {
+            div.contenu {
+                margin-left: auto;
+                margin-right: auto;
+                width: 645px;
+    
+                }
+        
+
+
+
+
