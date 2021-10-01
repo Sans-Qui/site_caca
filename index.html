@@ -1,67 +1,139 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <title>crotte de chien</title>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="recette.css">
+    <title>SANDRO</title>
+
+    <style>
+
+        :root {
+            --color1: #2f2;
+            --color2: #dfcfa4;
+        }
+        body {
+            background: url(giphyvoid.gif) repeat;
+            background-size: cover;
+            margin: 10%;
+            border: thick double var(--color1);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        div.cover {
+            background: url(cover_overlay.png) no-repeat center/100% ,url(imgcover1.webp) no-repeat center/cover;
+            height: 360px;
+            position: relative;
+        }
+
+        img.cover-profil {
+            height: 120px;
+            position: relative;
+            left: 50%;
+            margin-left: -50px;
+            margin-top: 50px;
+            border-radius: 50%;
+            box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7); 
+        }
+        .rainbow {
+            background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, rgb(209, 152, 28)), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+            -image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+            color:transparent;
+            -webkit-background-clip: text;
+            background-clip: text;
+        }
+        h1{
+            font-family: Conthrax; src: url('conthrax-sb.ttf');
+            font-size: 35px;
+            text-align:center; 
+            margin-top: 30px
+        }
+        div.cover p {
+            text-align: center;
+            color: rgb(202, 223, 17)
+        }
+        div.cover-contact {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            border-left: 4px solid var(--color1);
+            padding-left: 8px
+        }
+
+        div.cover-contact p {
+            text-align: left;
+        }
+        div.cover-contact a {
+            color: seagreen;
+            height: 20px;
+        }
+        img.gif1 {
+            height: 50px;
+            border-radius: 8%;
+        }
+        a.contact-button {
+            color: var(--color1);
+            border: 12px var(--color1);
+            padding: 8px 20px;
+            text-decoration: none;
+            background-color: #2f200099;
+            display: block;
+            margin-top: 15px;
+        }
+        a.contact-button:hover {
+            color: whitesmoke;
+            border: 3px solid rgb(255, 255, 255);
+        }
+        img.gif1:hover{
+            box-shadow: 5px 5px 5px rgba(0, 255, 0, 5);
+        }
+
+        .section2{
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-top: 20px;
+            padding-bottom: 30px;
+            background-color: var(--color1);
+        }
+        div.section1 {
+            margin-top: 35px;
+            background: url(blue.png) no-repeat center top;
+            background-color: var(--color2);
+            padding-top: 30px;
+            color: var(--color2);
+            padding-bottom: 80px;
+        }
+    </style>
 </head>
-
-
 <body>
-    <div class="contenu">
-        <div class ="centre categorie">
-            <p class="categorie"> KIKOU TOI HEHE</p>
-        </div>  
-        <h1>Délicieuse crotte de chien</h1>
+    <!-- COVER-->
+    <div class="cover">
+            <img class="cover-profil" src="giphyspiral.gif">
+            <h1 class="rainbow">SANDRO MARUANI</h1>
+            <p>Vous sortez du tesseract.</p>
 
-        <div class="separateur">
+            <div style="text-align: center">
+                <a class="contact-button" href="mailto:sandromaruani@gmail.com?subject=Hello"> CONTACT</a>
+            </div>
+
+            <div class="cover-contact">
+                <p><a href="mailto:sandromaruani@gmail.com?subject=Hello%20There!"><img class="gif1" src=giphyordi.gif></a></p>
+                <p><a href='tel:+33630676561'><img class="gif1" src=giphyphone.gif></a></p>
+            </div>
+
+        <!-- SECTION 1-->
+        <div class="section1 section2">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus blanditiis voluptatum reiciendis natus quasi sequi ex qui accusantium praesentium. Illum earum odit soluta nisi voluptatibus quo non id? Maxime ratione et tempore quos iste exercitationem impedit, eius pariatur quia, minus nesciunt suscipit optio placeat recusandae doloribus unde. Suscipit, dicta rem.
+        </div>
+
+        <div class="section2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quia molestiae consequuntur ut. Unde excepturi repellat, voluptatem facere exercitationem sint dolor pariatur nam molestias reiciendis quasi odio expedita nesciunt perferendis asperiores? Inventore obcaecati minima temporibus esse? Fugit ab magnam consequuntur suscipit, a ducimus aliquid distinctio doloremque, quisquam necessitatibus adipisci dolore!
+        </div>
+
 
     </div>
-
-    <div class="description">
-        <p class="description">qui sent bon mais oui je t'assure c'est bien sur mais oui mais oui gros tkt pas jt dis </p>
-        <p class="description">Vous <span style="color:sandybrown">allez vous regaler</span> miam miam</p>
-    </div>
-
-    <div class="info">
-        <img class="centre info" src="amonita.png?id=999">
-        <br>
-
-
-        <table class="info">
-            <th>Difficulté</th>
-            <th>Préparation</th>
-            <th>Cuisson</th>
-            <th>Temps total</th>
-        <tr>
-            <td>ça va</td>
-            <td>détente</td>
-            <td>pas trop longtemps</td>
-            <td>jore 10mn</td>
-        </tr>
-        </table>
-    </div>
-
     <div>
-        <div class="colonne colonne1">
-        <div style= "color:rgb(205, 229, 149)">
-            <h2>Ingrédients:</h2>
-        <div class="ingredients">
-                <p>un chien</p>
-                <p> un four</p>
-                <p>de quoi racler</p>
-    </div></div></div>
 
-
-        <div class="colonne colonne2">
-        <h2>comment tu vas faire:</h2>
-            <table class="preparation">
-                <tr><td><p class="numero">1</p></td><td class="preparation_etape">t'es posé oklm</td></tr>
-                <tr><td><p class="numero">2</p></td><td class="preparation_etape">tu prends le iench</td></tr>
-                <tr><td><p class="numero">3</p></td><td class="preparation_etape">tu extraies les bails et tout tsais comme à l'ancienne</td></tr>
-                <tr><td><p class="numero">4</p></td><td class="preparation_etape">tu mets au four</td></tr>
-            </table>
-    </div></div></div>
+    
+    </div>
 </body>
 </html>
